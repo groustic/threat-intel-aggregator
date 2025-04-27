@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Threat Intel Aggregator</title>
+</head>
+<body>
+    <h1>Threat Intelligence Feeds</h1>
+    <ul>
+    {% for ioc in iocs %}
+        <li>{{ ioc }}</li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
